@@ -1,0 +1,27 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: yellow;
+  font-size: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.full {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
