@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'trace2tree',
+    'barbara',
 ]
 
 MIDDLEWARE = [
@@ -124,5 +125,6 @@ STATIC_URL = '/static/'
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
 MEDIA_ROOT = u'/home/capmayer/capmayer_site/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = u'/home/capmayer/capmayer_site/static'
+#STATIC_ROOT = u'/home/capmayer/capmayer_site/static'
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 STATIC_URL = '/static/'

@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^barbara/', include('barbara.urls')),
     url(r'', include('trace2tree.urls')),
 ]
